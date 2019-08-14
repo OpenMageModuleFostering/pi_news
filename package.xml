@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>PI_News</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension is use to add news section.</summary>
+    <description>You can use this extension in order to add news on your site, it will provide you a section in admin so that you can add your news from their.</description>
+    <notes>This is stable version.</notes>
+    <authors><author><name>pureimagination</name><user>pureimagination</user><email>johncarter15oct@gmail.com</email></author></authors>
+    <date>2015-06-18</date>
+    <time>16:25:47</time>
+    <contents><target name="magelocal"><dir name="PI"><dir name="News"><dir name="Block"><dir name="Adminhtml"><dir name="News"><dir name="Edit"><file name="Form.php" hash="1ac1491599ff1c0870d88030e667efbd"/><dir name="Tab"><file name="Form.php" hash="74d188cddbdcf01c2ef1f618ab268e7d"/></dir><file name="Tabs.php" hash="996795acd3335e02f75acd210c501f5c"/></dir><file name="Edit.php" hash="b996b64fb428e5b8e1872c71094e394c"/><file name="Grid.php" hash="f3b8fe2a42b13da94cbfcee05a81fda7"/></dir><file name="News.php" hash="e958a1fcd4145779aff9ab3a52cba8d9"/></dir><file name="Breadcrumbs.php" hash="62c36306a8ac7d5cf6f26e1c2461e70d"/><file name="Detalle.php" hash="bdd265cc4e8a5977e64a78158b960c22"/><file name="Links.php" hash="b290bd4745402ddecc042316a1510c34"/><file name="Listado.php" hash="31da5237bc74746ffa07556b99f81aba"/><file name="News.php" hash="f9fe56d9a678c8b5518251970e5f48cf"/><file name="Toolbar.php" hash="ba25b11f8696931ae6da7c49e8821115"/></dir><dir name="Helper"><file name="Data.php" hash="40bfbd01ec85d2126c81b64821490fc2"/></dir><dir name="Model"><dir name="Mysql4"><dir name="News"><file name="Collection.php" hash="4d12f5d2f1a553bdcdf4546ada2c55fa"/></dir><file name="News.php" hash="b1c1e1a62756fa75b60abf89b9f5c4ce"/></dir><file name="News.php" hash="b066a6dabffaa54a1da4d03bf0ef50ee"/><file name="Status.php" hash="5390cd50d8a382503499d55379163b0c"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="NewsController.php" hash="32823183f7d19ce1187c2441fbb7dcc2"/></dir><file name="DetalleController.php" hash="c060fdd047f2978cc5aa31332c02cfeb"/><file name="ListadoController.php" hash="e916d68ff789d1136b5fdd20c46294ec"/></dir><dir name="etc"><file name="config.xml" hash="5940cb0cc6fa9227273b6a56dfc4bdac"/></dir><dir name="sql"><dir name="news_setup"><file name="mysql4-install-0.1.0.php" hash="608c85d42b4aea794e1bab4446a92b7b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="PI_News.xml" hash="e3b1a6f16ca01f9be7c256cc975fd190"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="news.xml" hash="b9e289df44e9d80094e7266270230d68"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="news"><file name="detalle.phtml" hash="4406f7557d76818f3d72e4e041bf7f5b"/><file name="left.phtml" hash="ef9cee1f226bfa432a5132b02118b68b"/><file name="listado.phtml" hash="1f520bc2f2c9d9ce07922bad4946002d"/><file name="toolbar.phtml" hash="a169bbdf61685f5afcc327945909c766"/></dir></dir><dir name="layout"><file name="news.xml" hash="cda1def5de651cf48d3b472e29f503b0"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
