@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/PI_News",
+    "name": "openmage-module-fostering\/pi_news",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension is use to add news section.",
     "authors": [
