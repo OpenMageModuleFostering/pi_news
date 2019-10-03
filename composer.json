@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/PI_News",
+    "name": "OpenMageModuleFostering\/PI_News",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL",
     "homepage": "",
     "description": "This extension is use to add news section.",
     "authors": [
-    {
-        "name": "pureimagination",
-        "email": "johncarter15oct@gmail.com"
-    }
-],
+        {
+            "name": "pureimagination",
+            "email": "johncarter15oct@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
